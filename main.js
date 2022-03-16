@@ -4,7 +4,7 @@ var carta1 = {
     ataque: 7,
     defesa: 8,
     magia: 6,
-  },
+  }
 };
 var carta2 = {
   nome: "Darth Vader",
@@ -12,7 +12,7 @@ var carta2 = {
     ataque: 9,
     defesa: 8,
     magia: 2,
-  },
+  }
 };
 
 var carta3 = {
@@ -21,7 +21,7 @@ var carta3 = {
     ataque: 5,
     defesa: 9,
     magia: 10,
-  },
+  }
 };
 
 var cartas = [carta1, carta2, carta3];
@@ -62,6 +62,7 @@ function obtemAtributoSelecionado() {
       return radioAtributos[i].value;
     }
   }
+}
 
   function jogar() {
     var atributoSelecionado = obtemAtributoSelecionado;
@@ -76,4 +77,4 @@ function obtemAtributoSelecionado() {
       elementoResultado.innerHTML = "Empatou  ";
     }
   }
-}
+
